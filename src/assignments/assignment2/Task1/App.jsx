@@ -12,8 +12,8 @@ const Task1App = () => {
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/assignment2/task1/about" element={<About />} />
-        <Route path="/assignment2/task1/contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
   );

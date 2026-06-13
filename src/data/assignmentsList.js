@@ -22,7 +22,7 @@ export const assignments = [
   id: "assignment2",
   title: "Assignment 2",
   tasks: [
-    { id: 1, title: "Task 1 - NavLink Navigation", path: "/assignment2/task1", component: Assignment2Task1 },
+    { id: 1, title: "Task 1 - NavLink Navigation", path: "/assignment2/task1/*", component: Assignment2Task1 },
     { id: 2, title: "Task 2 - Login & Register", path: "/assignment2/task2/*", component: Assignment2Task2 },
   ],
 },
