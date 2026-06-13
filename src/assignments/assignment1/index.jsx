@@ -1,0 +1,8 @@
+export {default as CompanyInfo} from "./CompanyInfo"
+export {default as EmployeeCard} from "./EmployeeCard"
+export {default as MovieDetails} from "./MovieDetails"
+export {default as ProductCard} from "./ProductCard"
+export {default as StudentProfile} from "./StudentProfile"
+export {default as Assignment1Task6} from "./Task6/App"
+export {default as Assignment1Task7} from "./Task7/App"
+export {default as Assignment1Task8} from "./Task8/App"

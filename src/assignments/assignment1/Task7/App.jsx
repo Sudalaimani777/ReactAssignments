@@ -1,0 +1,15 @@
+import Header from "./Header";
+import MainContent from "./MainContent";
+import Footer from "./Footer";
+
+const Task7App = () => {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+};
+
+export default Task7App;
