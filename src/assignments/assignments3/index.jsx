@@ -1,0 +1,8 @@
+export { default as Assignment3Task1 } from "./Task1/App"
+export { default as Assignment3Task2 } from "./Task2/App"
+export { default as Assignment3Task3 } from "./Task3/App"
+export { default as Assignment3Task4 } from "./Task4/App"
+export { default as Assignment3Task5 } from "./Task5/App"
+export { default as InterviewTask } from "./Task6/App"
+export { default as PropDrillingTask } from "./Task7/App"
+export { default as InterviewOrientedTask } from "./Task8/App"

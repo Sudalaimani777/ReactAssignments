@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { assignments } from "../data/assignmentsList";
 
 const AssignmentTasks = () => {
-  const { assignmentId } = useParams();
+  const { assignmentId } = useParams(); 
   const assignment = assignments.find((a) => a.id === assignmentId);
 
   if (!assignment) return <p className="p-6">Assignment not found</p>;
