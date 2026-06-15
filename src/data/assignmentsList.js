@@ -4,9 +4,14 @@ import { StudentProfile, EmployeeCard, ProductCard, MovieDetails, CompanyInfo, A
 import { Assignment2Task1, Assignment2Task2 } from "../assignments/assignment2";
 // Task 3
 import { Assignment3Task1, Assignment3Task2, Assignment3Task3, Assignment3Task4, Assignment3Task5, InterviewOrientedTask, InterviewTask, PropDrillingTask } from "../assignments/assignments3";
+// Task 4
+import { SchoolCardUI, SchoolCourseDashboard, SchoolManagementDashboard } from "../assignments/assignment4";
+
+
 
 
 export const assignments = [
+  // Assignment 1
   {
     id: "day1",
     title: "Assignment 1",
@@ -21,6 +26,7 @@ export const assignments = [
       { id: 8, title: "Task 8 - Landing Page", path: "/day1/task8", component: Assignment1Task8 },
     ],
   },
+  // Assignment 2
   {
     id: "assignment2",
     title: "Assignment 2",
@@ -29,6 +35,7 @@ export const assignments = [
       { id: 2, title: "Task 2 - Login & Register", path: "/assignment2/task2/*", component: Assignment2Task2 },
     ],
   },
+  // Assignment 3
   {
     id: "assignment3",
     title: "Assignment 3",
@@ -41,6 +48,16 @@ export const assignments = [
       { id: 6, title: "Task 6 - Bonus Interview Task", path: "/assignment3/interviewTask", component: InterviewTask },
       { id: 7, title: "Task 7 - Props Drilling Task", path: "/assignment3/propDrillingTask", component: PropDrillingTask },
       { id: 8, title: "Task 8 - Interview-Oriented Task", path: "/assignment3/interviewOrientedTask", component: InterviewOrientedTask },
+    ]
+  },
+  // Assignment 4
+  {
+    id:"assignment4",
+    title:"Assignment 4",
+    tasks:[
+      {id:1, title:"Task 1 - School Cards UI", path:"/assignment4/schoolCard", component: SchoolCardUI},
+      {id:2, title:"Task 2 - School Courses Dashboard", path:"/assignment4/schoolCourse", component: SchoolCourseDashboard},
+      {id:3, title:"Task 3 - School Management Dashboard", path:"/assignment4/schoolManagement", component: SchoolManagementDashboard},
     ]
   }
 ];

@@ -1,0 +1,181 @@
+export const schools = [
+  {
+    schoolName: "Green Valley High School",
+    city: "Chennai",
+    principalName: "Dr. Rajesh Kumar",
+    totalStudents: 1850,
+    totalTeachers: 95,
+    sportsAvailable: ["Cricket", "Football", "Basketball", "Athletics"],
+  },
+  {
+    schoolName: "Sunrise Public School",
+    city: "Coimbatore",
+    principalName: "Mrs. Priya Sharma",
+    totalStudents: 1420,
+    totalTeachers: 78,
+    sportsAvailable: ["Volleyball", "Badminton", "Tennis"],
+  },
+  {
+    schoolName: "Oxford International School",
+    city: "Madurai",
+    principalName: "Mr. Arvind Nair",
+    totalStudents: 2100,
+    totalTeachers: 110,
+    sportsAvailable: ["Cricket", "Swimming", "Football"],
+  },
+  {
+    schoolName: "Starlight Academy",
+    city: "Salem",
+    principalName: "Ms. Anitha Joseph",
+    totalStudents: 980,
+    totalTeachers: 52,
+    sportsAvailable: ["Basketball", "Table Tennis", "Chess"],
+  },
+  {
+    schoolName: "Blue Hills School",
+    city: "Trichy",
+    principalName: "Mr. Suresh Babu",
+    totalStudents: 1650,
+    totalTeachers: 87,
+    sportsAvailable: ["Football", "Kabaddi", "Athletics"],
+  },
+  {
+    schoolName: "Future Minds School",
+    city: "Erode",
+    principalName: "Mrs. Kavitha Reddy",
+    totalStudents: 1250,
+    totalTeachers: 65,
+    sportsAvailable: ["Cricket", "Kho Kho", "Volleyball"],
+  },
+  {
+    schoolName: "National Model School",
+    city: "Vellore",
+    principalName: "Dr. Meena Iyer",
+    totalStudents: 1950,
+    totalTeachers: 102,
+    sportsAvailable: ["Swimming", "Tennis", "Basketball"],
+  },
+  {
+    schoolName: "Elite Public Academy",
+    city: "Tirunelveli",
+    principalName: "Mr. Sanjay Menon",
+    totalStudents: 890,
+    totalTeachers: 48,
+    sportsAvailable: ["Football", "Badminton", "Athletics"],
+  },
+  {
+    schoolName: "Harmony Senior Secondary School",
+    city: "Thanjavur",
+    principalName: "Mrs. Lakshmi Devi",
+    totalStudents: 1730,
+    totalTeachers: 91,
+    sportsAvailable: ["Cricket", "Chess", "Table Tennis"],
+  },
+  {
+    schoolName: "Wisdom International School",
+    city: "Thoothukudi",
+    principalName: "Mr. Vijay Krishnan",
+    totalStudents: 1540,
+    totalTeachers: 83,
+    sportsAvailable: ["Basketball", "Swimming", "Volleyball"],
+  },
+];
+
+export const schoolCourses = [
+  {
+    schoolName: "Green Valley High School",
+    coursesOffered: [
+      "Mathematics",
+      "Science",
+      "English",
+      "Computer Science",
+      "History",
+    ],
+  },
+  {
+    schoolName: "Sunrise Public School",
+    coursesOffered: [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Mathematics",
+      "Economics",
+    ],
+  },
+  {
+    schoolName: "Oxford International School",
+    coursesOffered: [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Mathematics",
+      "English",
+      "Business Studies",
+    ],
+  },
+  {
+    schoolName: "Starlight Academy",
+    coursesOffered: [
+      "English",
+      "Geography",
+      "History",
+      "Political Science",
+    ],
+  },
+  {
+    schoolName: "Blue Hills School",
+    coursesOffered: [
+      "Mathematics",
+      "Science",
+      "Computer Applications",
+      "Physical Education",
+    ],
+  },
+  {
+    schoolName: "Future Minds School",
+    coursesOffered: [
+      "Biology",
+      "Chemistry",
+      "Environmental Science",
+      "English",
+    ],
+  },
+  {
+    schoolName: "National Model School",
+    coursesOffered: [
+      "Physics",
+      "Mathematics",
+      "Computer Science",
+      "Statistics",
+      "Economics",
+    ],
+  },
+  {
+    schoolName: "Elite Public Academy",
+    coursesOffered: [
+      "Commerce",
+      "Accountancy",
+      "Business Studies",
+      "Mathematics",
+    ],
+  },
+  {
+    schoolName: "Harmony Senior Secondary School",
+    coursesOffered: [
+      "History",
+      "Political Science",
+      "Sociology",
+      "English",
+    ],
+  },
+  {
+    schoolName: "Wisdom International School",
+    coursesOffered: [
+      "Computer Science",
+      "Mathematics",
+      "Physics",
+      "English",
+      "Artificial Intelligence",
+    ],
+  },
+];
+
