@@ -4,6 +4,7 @@ const Header = () => {
       <div className="mx-auto max-w-7xl">
         <h1 className="text-2xl font-bold sm:text-3xl text-center">
           School Management System
+          
         </h1>
       </div>
     </header>
