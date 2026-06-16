@@ -6,6 +6,8 @@ import { Assignment2Task1, Assignment2Task2 } from "../assignments/assignment2";
 import { Assignment3Task1, Assignment3Task2, Assignment3Task3, Assignment3Task4, Assignment3Task5, InterviewOrientedTask, InterviewTask, PropDrillingTask } from "../assignments/assignments3";
 // Task 4
 import { SchoolCardUI, SchoolCourseDashboard, SchoolManagementDashboard } from "../assignments/assignment4";
+import { ArrrayInState, ArrrayOfObjectsInState, ClassComponent, CounterApp, LifeCycleMethods, ObjectsInState, UseStateSyntax } from "../assignments/assignment5";
+
 
 
 
@@ -52,12 +54,31 @@ export const assignments = [
   },
   // Assignment 4
   {
-    id:"assignment4",
-    title:"Assignment 4",
-    tasks:[
-      {id:1, title:"Task 1 - School Cards UI", path:"/assignment4/schoolCard", component: SchoolCardUI},
-      {id:2, title:"Task 2 - School Courses Dashboard", path:"/assignment4/schoolCourse", component: SchoolCourseDashboard},
-      {id:3, title:"Task 3 - School Management Dashboard", path:"/assignment4/schoolManagement", component: SchoolManagementDashboard},
+    id: "assignment4",
+    title: "Assignment 4",
+    tasks: [
+      { id: 1, title: "Task 1 - School Cards UI", path: "/assignment4/schoolCard", component: SchoolCardUI },
+      { id: 2, title: "Task 2 - School Courses Dashboard", path: "/assignment4/schoolCourse", component: SchoolCourseDashboard },
+      { id: 3, title: "Task 3 - School Management Dashboard", path: "/assignment4/schoolManagement", component: SchoolManagementDashboard },
+    ]
+  },
+  // Assignment 5
+  {
+    id: "assignmetn5",
+    title: "Assignment 5",
+    tasks: [
+      { id: 1, title: "Task 1 - Make the class component and print the Value on the screen", path: "/assignment5/classComponent", component: ClassComponent },
+      { id: 2, title: "Task 2 - Add the Life cycle methods on the console.", path: "/assignment5/lifeCycleMethod", component: LifeCycleMethods },
+      { id: 3, title: "Task 3 - Make the Syntax of using useState().", path: "/assignment5/useStateSyntax", component: UseStateSyntax },
+      { id: 4, title: "Task 4 - Make the Counter Program using state", path: "/assignment5/counterApp", component: CounterApp },
+      { id: 5, title: "Task 5 - Make the Object inside the useState and showing in the HTML?", path: "/assignment5/objInState", component: ObjectsInState },
+      { id: 6, title: "Task 6 - Make the array and showing in the below", path: "/assignment5/arrayInState", component: ArrrayOfObjectsInState },
+      { id: 7, title: "Task 7 - Make the Array of Object and rendering using Map()", path: "/assignment5/arrayOfObjUsingMap", component: ArrrayInState },
     ]
   }
 ];
+
+
+
+
+
