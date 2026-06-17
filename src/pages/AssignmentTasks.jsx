@@ -18,7 +18,7 @@ const AssignmentTasks = () => {
           <Link
             key={task.id}
             to={task.path}
-            className="bg-green-600 text-white p-4 rounded text-center hover:bg-green-700"
+            className="bg-green-600 text-white p-4 text-center hover:bg-green-700 rounded-2xl"
           >
             {task.title}
           </Link>

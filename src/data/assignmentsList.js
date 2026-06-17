@@ -7,6 +7,23 @@ import { Assignment3Task1, Assignment3Task2, Assignment3Task3, Assignment3Task4,
 // Task 4
 import { SchoolCardUI, SchoolCourseDashboard, SchoolManagementDashboard } from "../assignments/assignment4";
 import { ArrrayInState, ArrrayOfObjectsInState, ClassComponent, CounterApp, LifeCycleMethods, ObjectsInState, UseStateSyntax } from "../assignments/assignment5";
+import {
+  AgeIncrement as Assignment6AgeIncrement,
+  AttendanceTracker,
+  BankBalance,
+  CounterApp as Assignment6CounterApp,
+  CourseSelection,
+  EmployeeStatus,
+  LoginStatus as Assignment6LoginStatus,
+  MobileNumber,
+  ProductDetails,
+  ProfileVisibility,
+  SalaryUpdate,
+  ShowAndHideContent,
+  StudentNameChange as Assignment6StudentNameChange,
+  ThemeSwitch as Assignment6ThemeSwitch,
+  UserDataLoading,
+} from "../assignments/assignment6";
 
 
 
@@ -74,6 +91,28 @@ export const assignments = [
       { id: 5, title: "Task 5 - Make the Object inside the useState and showing in the HTML?", path: "/assignment5/objInState", component: ObjectsInState },
       { id: 6, title: "Task 6 - Make the array and showing in the below", path: "/assignment5/arrayInState", component: ArrrayOfObjectsInState },
       { id: 7, title: "Task 7 - Make the Array of Object and rendering using Map()", path: "/assignment5/arrayOfObjUsingMap", component: ArrrayInState },
+    ]
+  },
+  // Assignment 6
+  {
+    id: "assignment6",
+    title: "Assignment 6",
+    tasks: [
+      { id: 1, title: "Task 1 - Counter App", path: "/assignment6/task1", component: Assignment6CounterApp },
+      { id: 2, title: "Task 2 - Student Name Change", path: "/assignment6/task2", component: Assignment6StudentNameChange },
+      { id: 3, title: "Task 3 - Age Increment", path: "/assignment6/task3", component: Assignment6AgeIncrement },
+      { id: 4, title: "Task 4 - Login Status", path: "/assignment6/task4", component: Assignment6LoginStatus },
+      { id: 5, title: "Task 5 - Theme Switch", path: "/assignment6/task5", component: Assignment6ThemeSwitch },
+      { id: 6, title: "Task 6 - Show And Hide Content", path: "/assignment6/task6", component: ShowAndHideContent },
+      { id: 7, title: "Task 7 - User Data Loading", path: "/assignment6/task7", component: UserDataLoading },
+      { id: 8, title: "Task 8 - Product Details", path: "/assignment6/task8", component: ProductDetails },
+      { id: 9, title: "Task 9 - Mobile Number", path: "/assignment6/task9", component: MobileNumber },
+      { id: 10, title: "Task 10 - Salary Update", path: "/assignment6/task10", component: SalaryUpdate },
+      { id: 11, title: "Task 11 - Course Selection", path: "/assignment6/task11", component: CourseSelection },
+      { id: 12, title: "Task 12 - Employee Status", path: "/assignment6/task12", component: EmployeeStatus },
+      { id: 13, title: "Task 13 - Attendance Tracker", path: "/assignment6/task13", component: AttendanceTracker },
+      { id: 14, title: "Task 14 - Profile Visibility", path: "/assignment6/task14", component: ProfileVisibility },
+      { id: 15, title: "Task 15 - Bank Balance", path: "/assignment6/task15", component: BankBalance },
     ]
   }
 ];

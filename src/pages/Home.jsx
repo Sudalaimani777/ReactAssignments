@@ -10,7 +10,7 @@ const Home = () => {
           <Link
             key={a.id}
             to={`/${a.id}`}
-            className="bg-blue-600 text-white p-4 rounded text-center hover:bg-blue-700"
+            className="bg-blue-600 text-white p-4 text-center hover:bg-blue-700 rounded-2xl"
           >
             {a.title}
           </Link>
