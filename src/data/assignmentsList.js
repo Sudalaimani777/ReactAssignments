@@ -6,7 +6,9 @@ import { Assignment2Task1, Assignment2Task2 } from "../assignments/assignment2";
 import { Assignment3Task1, Assignment3Task2, Assignment3Task3, Assignment3Task4, Assignment3Task5, InterviewOrientedTask, InterviewTask, PropDrillingTask } from "../assignments/assignments3";
 // Task 4
 import { SchoolCardUI, SchoolCourseDashboard, SchoolManagementDashboard } from "../assignments/assignment4";
+// Task 5
 import { ArrrayInState, ArrrayOfObjectsInState, ClassComponent, CounterApp, LifeCycleMethods, ObjectsInState, UseStateSyntax } from "../assignments/assignment5";
+// Task 6
 import {
   AgeIncrement as Assignment6AgeIncrement,
   AttendanceTracker,
