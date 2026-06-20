@@ -12,7 +12,7 @@ export const TaskProvider = ({ children }) => {
         task: {},
         edit: false
     });
-    const apiUrl = import.meta.env.VITE_MOCK_API_URL;
+    const apiUrl = "https://6a36b628766b831960f97e13.mockapi.io/api/v1/tasks"
     // console.log(apiUrl);
     console.log(task);
 
