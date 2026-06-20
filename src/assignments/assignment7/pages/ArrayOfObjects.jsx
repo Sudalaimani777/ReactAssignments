@@ -82,7 +82,7 @@ const ArrayOfObjects = () => {
         {projects.map((project) => (
           <article
             key={project.id}
-            className="rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
           >
             <div className="flex items-center justify-between gap-3">
               <span className="rounded-full bg-violet-100 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-violet-700">

@@ -25,7 +25,7 @@ const TaskList = () => {
                             key={task.id}
                             className="flex flex-col gap-3 rounded-lg border border-slate-200 px-4 py-4 sm:flex-row sm:items-start sm:justify-between"
                         >
-                            <p className="text-sm leading-6 text-slate-800 break-words sm:text-base">
+                            <p className="text-sm leading-6 text-slate-800 wrap-break-words sm:text-base">
                                 {task.text}
                             </p>
 
