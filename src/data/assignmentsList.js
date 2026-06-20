@@ -26,6 +26,9 @@ import {
   ThemeSwitch as Assignment6ThemeSwitch,
   UserDataLoading,
 } from "../assignments/assignment6";
+// Task 7
+import { Assignment7 } from "../assignments/assignment7";
+
 
 
 
@@ -115,6 +118,14 @@ export const assignments = [
       { id: 13, title: "Task 13 - Attendance Tracker", path: "/assignment6/task13", component: AttendanceTracker },
       { id: 14, title: "Task 14 - Profile Visibility", path: "/assignment6/task14", component: ProfileVisibility },
       { id: 15, title: "Task 15 - Bank Balance", path: "/assignment6/task15", component: BankBalance },
+    ]
+  },
+  // Assignment 7
+  {
+    id: "assignment7",
+    title: "Assignment 7",
+    tasks: [
+      { id: 1, title: "Task for UseState Object array and array of object to showing and update the values.", path: "/assignment7/*", component: Assignment7 }
     ]
   }
 ];
