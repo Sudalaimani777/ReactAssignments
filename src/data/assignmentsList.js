@@ -28,6 +28,8 @@ import {
 } from "../assignments/assignment6";
 // Task 7
 import { Assignment7 } from "../assignments/assignment7";
+// Task 8
+import { TodoList } from "../assignments/assignment8";
 
 
 
@@ -126,6 +128,14 @@ export const assignments = [
     title: "Assignment 7",
     tasks: [
       { id: 1, title: "Task for UseState Object array and array of object to showing and update the values.", path: "/assignment7/*", component: Assignment7 }
+    ]
+  },
+  // Assignment 8
+  {
+    id: "assignment8",
+    title: "Todo List",
+    tasks: [
+      { id: 1, title: "Todo List", path: "/assignment8/todoapp", component: TodoList }
     ]
   }
 ];
