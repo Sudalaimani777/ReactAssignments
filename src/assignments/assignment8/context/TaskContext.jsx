@@ -13,7 +13,7 @@ export const TaskProvider = ({ children }) => {
         edit: false
     });
     const apiUrl = import.meta.env.VITE_MOCK_API_URL;
-    console.log(apiUrl);
+    // console.log(apiUrl);
     console.log(task);
 
     // Load All Task :-
@@ -30,6 +30,7 @@ export const TaskProvider = ({ children }) => {
         }
         fetchTask()
     }, [apiUrl]);
+    
 
     // Add Task :-
     const handleAddTask = async (newTask) => {
