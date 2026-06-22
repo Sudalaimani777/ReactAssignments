@@ -30,7 +30,7 @@ export const TaskProvider = ({ children }) => {
         }
         fetchTask()
     }, [apiUrl]);
-    
+
 
     // Add Task :-
     const handleAddTask = async (newTask) => {
@@ -94,13 +94,13 @@ export const TaskProvider = ({ children }) => {
     // Clear Edit :-
     const handleClearEdit = () => {
         setTaskEdit({
-            task:{},
-            edit:false
+            task: {},
+            edit: false
         })
     }
 
     return (
-        <TaskContext.Provider value={{task, handleAddTask, handleEditTask, handleDeleteTask, handleUpdateTask, handleClearEdit, taskEdit}}>
+        <TaskContext.Provider value={{ task, handleAddTask, handleEditTask, handleDeleteTask, handleUpdateTask, handleClearEdit, taskEdit }}>
             {children}
         </TaskContext.Provider>
     )
