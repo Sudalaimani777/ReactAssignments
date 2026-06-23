@@ -15,6 +15,10 @@ export const TaskProvider = ({ children }) => {
     // Add Function
     const handleAddTask = (e) => {
         e.preventDefault();
+        if(taskData.taskTitle === "" || taskData.taskDescription === "") {
+            alert("Fill the reamaining or unfilled text boxes");
+            return
+        }
         setAllTask(prevTask => [...prevTask, taskData]);
         setTaskData({ taskTitle: "", taskDescription: "" });
         console.log(allTask);
