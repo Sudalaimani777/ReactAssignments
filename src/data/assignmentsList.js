@@ -30,8 +30,11 @@ import {
 import { Assignment7 } from "../assignments/assignment7";
 // Task 8
 import { TodoList } from "../assignments/assignment8";
+import { WithAuth, WithBackgroundColor } from "../assignments/assignment9";
+import { CRUDApp } from "../assignments/assignment10";
 
 
+ 
 
 
 
@@ -136,6 +139,23 @@ export const assignments = [
     title: "Todo List",
     tasks: [
       { id: 1, title: "Todo List", path: "/assignment8/todoapp", component: TodoList }
+    ]
+  },
+  // Assignment 9
+  {
+    id:"assignment9",
+    title:"Assignment 9",
+    tasks:[
+      { id: 1, title: "With Background Color", path: "/assignment9/withbackgroundcolor", component: WithBackgroundColor },
+      { id: 2, title: "With Auth", path: "/assignment9/withauth", component: WithAuth },
+    ]
+  },
+  //Assignment 10
+  {
+    id:"assignment10",
+    title:"Assignment 10",
+    tasks:[
+      {id:1, title:"CRUD APP", path:"/assignment10/crud", component: CRUDApp}
     ]
   }
 ];
