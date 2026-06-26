@@ -1,15 +1,36 @@
-import { useNavigate } from "react-router-dom"
+import { useContext } from "react"
+import UserLoginContext from "../context/UserLoginContext"
 
 
 const Login = () => {
-  const navigate  = useNavigate();
-  const handleClick = () => {
-    navigate("../dashboard");
-  }
+  
+
+    const {handleUserLogin, handleUserLoginInputChange, loginUserData} = useContext(UserLoginContext);
+
   return (
-    <div>Login
-      <button onClick={handleClick}>Loin</button>
-    </div>
+    <>
+      <section>
+        <form onSubmit={handleUserLogin}>
+          <input 
+            type="email"
+            name="userEmail"
+            value={loginUserData.userEmail}
+            required
+            placeholder="Enter Email"
+            onChange={handleUserLoginInputChange}
+          />
+          <input 
+            type="password" 
+            name="userPassword"
+            value={loginUserData.userPassword}
+            required
+            placeholder="Enter Password"
+            onChange={handleUserLoginInputChange}
+          />
+          <button>Login</button>
+        </form>
+      </section>
+    </>
   )
 }
 
