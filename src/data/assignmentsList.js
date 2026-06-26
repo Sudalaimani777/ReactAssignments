@@ -36,9 +36,11 @@ import { WithAuth, WithBackgroundColor } from "../assignments/assignment9";
 import { CRUDApp } from "../assignments/assignment10";
 // Task 11
 import { StudentRegistration, EmployeeRegistration } from "../assignments/assignment11";
+// Task 12
+import { Authentication } from "../assignments/assignment12";
 
 
- 
+
 
 
 
@@ -147,28 +149,34 @@ export const assignments = [
   },
   // Assignment 9
   {
-    id:"assignment9",
-    title:"Assignment 9",
-    tasks:[
+    id: "assignment9",
+    title: "Assignment 9",
+    tasks: [
       { id: 1, title: "With Background Color", path: "/assignment9/withbackgroundcolor", component: WithBackgroundColor },
       { id: 2, title: "With Auth", path: "/assignment9/withauth", component: WithAuth },
     ]
   },
   //Assignment 10
   {
-    id:"assignment10",
-    title:"Assignment 10",
-    tasks:[
-      {id:1, title:"CRUD APP", path:"/assignment10/crud", component: CRUDApp}
+    id: "assignment10",
+    title: "Assignment 10",
+    tasks: [
+      { id: 1, title: "CRUD APP", path: "/assignment10/crud", component: CRUDApp }
     ]
   },
   // Assignmetn 11
   {
-     id:"assignment11",
-    title:"Assignment 11",
-    tasks:[
-      {id:1, title:"Student Registration", path:"/assignment10/studentregistration", component: StudentRegistration},
-      {id:2, title:"Employee Registration", path:"/assignment10/employeeregistration", component: EmployeeRegistration}
+    id: "assignment11",
+    title: "Assignment 11",
+    tasks: [
+      { id: 1, title: "Student Registration", path: "/assignment10/studentregistration", component: StudentRegistration },
+      { id: 2, title: "Employee Registration", path: "/assignment10/employeeregistration", component: EmployeeRegistration }
+    ]
+  }, {
+    id: "assignment12", 
+    title: "Assignment 12",
+    tasks: [
+      { id: 1, title: "Authentication", path: "/assignment/12/authentication/",routePath:"/assignment/12/authentication/*", component: Authentication }
     ]
   }
 ];

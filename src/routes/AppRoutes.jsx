@@ -10,7 +10,11 @@ const AppRoutes = () => {
       <Route path="/:assignmentId" element={<AssignmentTasks />} />
       {assignments.map((a) =>
         a.tasks.map((task) => (
-          <Route key={task.path} path={task.path} element={<task.component />} />
+          <Route
+            key={task.routePath || task.path}
+            path={task.routePath || task.path}
+            element={<task.component />}
+          />
         ))
       )}
     </Routes>
