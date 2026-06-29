@@ -38,6 +38,8 @@ import { CRUDApp } from "../assignments/assignment10";
 import { StudentRegistration, EmployeeRegistration } from "../assignments/assignment11";
 // Task 12
 import { Authentication } from "../assignments/assignment12";
+// Task 13
+import { StudentRegistrationForms, EmployeeManagementSystem } from "../assignments/assignment13"
 
 
 
@@ -164,7 +166,7 @@ export const assignments = [
       { id: 1, title: "CRUD APP", path: "/assignment10/crud", component: CRUDApp }
     ]
   },
-  // Assignmetn 11
+  // Assignment 11
   {
     id: "assignment11",
     title: "Assignment 11",
@@ -172,11 +174,22 @@ export const assignments = [
       { id: 1, title: "Student Registration", path: "/assignment10/studentregistration", component: StudentRegistration },
       { id: 2, title: "Employee Registration", path: "/assignment10/employeeregistration", component: EmployeeRegistration }
     ]
-  }, {
-    id: "assignment12", 
+  },
+  // Assignment 12
+  {
+    id: "assignment12",
     title: "Assignment 12",
     tasks: [
-      { id: 1, title: "Authentication", path: "/assignment/12/authentication/",routePath:"/assignment/12/authentication/*", component: Authentication }
+      { id: 1, title: "Authentication", path: "/assignment/12/authentication/", routePath: "/assignment/12/authentication/*", component: Authentication }
+    ]
+  },
+  // Assignment 13
+  {
+    id: "assignment13",
+    title: "Assignment 13",
+    tasks: [
+      { id: 1, title: "Student Registration Forms", path: "/assignment/13/studentregistrationforms", component: StudentRegistrationForms },
+      { id: 2, title: "Employee Management System", path: "/assignment/13/employeemanagementsystem", component: EmployeeManagementSystem }
     ]
   }
 ];
