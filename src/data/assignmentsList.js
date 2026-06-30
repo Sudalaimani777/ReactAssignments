@@ -41,7 +41,9 @@ import { Authentication } from "../assignments/assignment12";
 // Task 13
 import { StudentRegistrationForms, EmployeeManagementSystem } from "../assignments/assignment13"
 // Task 14
-import { FetchUsers, Timer, ClockApp } from "../assignments/assignment14"
+import { FetchUsers, Timer, ClockApp } from "../assignments/assignment14";
+// Task 15
+import { MiniEcommerce } from "../assignments/assignment15";
 
 
 
@@ -200,6 +202,14 @@ export const assignments = [
       { id: 1, title: "Fetch Users", path: "/assignment/14/fetchusers", component: FetchUsers },
       { id: 2, title: "Timer", path: "/assignment/14/timer", component: Timer },
       { id: 3, title: "Clock App", path: "/assignment/14/clock", component: ClockApp },
+    ]
+  },
+  // Assignment 15
+  {
+    id: "assignment15",
+    title: "Assignment 15",
+    tasks: [
+      { id: 1, title: "Mini Ecommerce", path: "/assignment/15/miniecommerce", component: MiniEcommerce }
     ]
   }
 ];

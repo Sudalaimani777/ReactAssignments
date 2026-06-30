@@ -1,0 +1,1 @@
+export { default as MiniEcommerce } from "./Task1/App";
