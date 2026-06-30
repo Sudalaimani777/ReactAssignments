@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
 
-
-
-
-
 const useFetchProducts = () => {
 
     const [products, setProducts] = useState([]);

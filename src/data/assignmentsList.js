@@ -43,7 +43,7 @@ import { StudentRegistrationForms, EmployeeManagementSystem } from "../assignmen
 // Task 14
 import { FetchUsers, Timer, ClockApp } from "../assignments/assignment14";
 // Task 15
-import { MiniEcommerce } from "../assignments/assignment15";
+import { MiniEcommerce, EmployeeSearch } from "../assignments/assignment15";
 
 
 
@@ -209,7 +209,8 @@ export const assignments = [
     id: "assignment15",
     title: "Assignment 15",
     tasks: [
-      { id: 1, title: "Mini Ecommerce", path: "/assignment/15/miniecommerce", component: MiniEcommerce }
+      { id: 1, title: "Mini Ecommerce", path: "/assignment/15/miniecommerce", component: MiniEcommerce },
+      { id: 2, title: "EmployeeSearch", path: "/assignment/15/employeesearch", component: EmployeeSearch },
     ]
   }
 ];
