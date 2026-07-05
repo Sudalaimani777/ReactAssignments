@@ -46,6 +46,8 @@ import { FetchUsers, Timer, ClockApp } from "../assignments/assignment14";
 import { MiniEcommerce, EmployeeSearch } from "../assignments/assignment15";
 // Task 16
 import { ProductEcommerce } from "../assignments/assignment16";
+// Task 17
+import { TodoWithSearch } from "../assignments/assignment17"
 
 
 
@@ -222,8 +224,17 @@ export const assignments = [
     tasks: [
       { id: 1, title: "Product Ecommerce", path: "/assignment/16/productecommerce", component: ProductEcommerce }
     ]
+  },
+  // Assignment 17
+  {
+    id: "assignment17",
+    title: "Assignmetn 17",
+    tasks: [
+      { id: 1, title: "Todo With Search", path: "/assignment/17/todowithsearch", component: TodoWithSearch }
+    ]
   }
 ];
+
 
 
 
