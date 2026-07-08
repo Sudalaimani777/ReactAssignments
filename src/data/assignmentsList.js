@@ -47,7 +47,9 @@ import { MiniEcommerce, EmployeeSearch } from "../assignments/assignment15";
 // Task 16
 import { ProductEcommerce } from "../assignments/assignment16";
 // Task 17
-import { TodoWithSearch } from "../assignments/assignment17"
+import { TodoWithSearch } from "../assignments/assignment17";
+// Task 18
+import {TextAndInputRef, SinglePageApplication, ToggleProcess, ClickAndShowText} from "../assignments/assignment18";
 
 
 
@@ -232,7 +234,18 @@ export const assignments = [
     tasks: [
       { id: 1, title: "Todo With Search", path: "/assignment/17/todowithsearch", component: TodoWithSearch }
     ]
-  }
+  },
+  // Assignment 18
+  {
+    id: "assignment18",
+    title: "Assignmetn 18",
+    tasks: [
+      { id: 1, title: "Text And Input Ref", path: "/assignment/17/textandinputref", component: TextAndInputRef },
+      { id: 2, title: "Text And Input Ref", path: "/assignment/17/singlepageapplication", component: SinglePageApplication },
+      { id: 3, title: "Text And Input Ref", path: "/assignment/17/toggleprocess", component: ToggleProcess },
+      { id: 4, title: "Text And Input Ref", path: "/assignment/17/clickandshow", component: ClickAndShowText },
+    ]
+  },
 ];
 
 
