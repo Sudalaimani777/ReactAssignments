@@ -49,8 +49,9 @@ import { ProductEcommerce } from "../assignments/assignment16";
 // Task 17
 import { TodoWithSearch } from "../assignments/assignment17";
 // Task 18
-import {TextAndInputRef, SinglePageApplication, ToggleProcess, ClickAndShowText} from "../assignments/assignment18";
-
+import { TextAndInputRef, SinglePageApplication, ToggleProcess, ClickAndShowText } from "../assignments/assignment18";
+// Task19 :-
+import { UserProfileRenderingContext, ProductCardsRenderingContext } from "../assignments/assignment19"
 
 
 
@@ -244,6 +245,15 @@ export const assignments = [
       { id: 2, title: "Text And Input Ref", path: "/assignment/17/singlepageapplication", component: SinglePageApplication },
       { id: 3, title: "Text And Input Ref", path: "/assignment/17/toggleprocess", component: ToggleProcess },
       { id: 4, title: "Text And Input Ref", path: "/assignment/17/clickandshow", component: ClickAndShowText },
+    ]
+  },
+  // Assignment 19
+  {
+    id: "assignment19",
+    title: "Assignmetn 19",
+    tasks: [
+      { id: 1, title: "User Profile Rendering Context", path: "/assignment/17/userprofilerenderingcontext", component: UserProfileRenderingContext },
+      { id: 2, title: "Product Cards Rendering Context", path: "/assignment/17/productcardsrenderingcontext", component: ProductCardsRenderingContext },
     ]
   },
 ];
