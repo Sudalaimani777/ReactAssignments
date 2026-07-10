@@ -9,7 +9,7 @@ const Dashboard = () => {
   const handleLogout = () => {
     localStorage.removeItem("currentUser");
     setCurrentUser(null);
-    navigate("/login");
+    navigate("/assignment/20/loginandregisterwithprotectedroutes/login");
   };
 
   return (

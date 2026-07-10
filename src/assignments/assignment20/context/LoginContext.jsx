@@ -26,7 +26,7 @@ export const LoginProvider = ({ children }) => {
         if (matchedUser) {
             localStorage.setItem("currentUser", JSON.stringify(matchedUser));
             setCurrentUser(matchedUser);
-            navigate("/assignment/20/dashboard");
+            navigate("/assignment/20/loginandregisterwithprotectedroutes/dashboard");
         } else {
             alert("Invalid email or password");
             return;
@@ -34,7 +34,7 @@ export const LoginProvider = ({ children }) => {
     }
 
     return (
-        <LoginContext.Provider value={{ loginUserInputData, handleUserLogin, loginInputChange, currentUser}}>
+        <LoginContext.Provider value={{ loginUserInputData, handleUserLogin, loginInputChange, currentUser }}>
             {children}
         </LoginContext.Provider>
     )

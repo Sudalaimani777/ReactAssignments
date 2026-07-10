@@ -67,7 +67,7 @@ const Register = () => {
 
         <p className="mt-6 text-center text-sm text-gray-600">
           Already have an account?{" "}
-          <Link to="/assignment/20/login" className="font-medium text-blue-600 hover:underline">
+          <Link to="/assignment/20/loginandregisterwithprotectedroutes/login" className="font-medium text-blue-600 hover:underline">
             Sign in
           </Link>
         </p>

@@ -263,7 +263,7 @@ export const assignments = [
     id: "assignment20",
     title: "Assignmetn 20",
     tasks: [
-      { id: 1, title: "Login And Register With Protected Routes", path: "/assignment/20/loginandregisterwithprotectedroutes", component: LoginAndRegisterWithProtectedRoutes },
+      { id: 1, title: "Login And Register With Protected Routes", path: "/assignment/20/loginandregisterwithprotectedroutes", routePath: "/assignment/20/loginandregisterwithprotectedroutes/*", component: LoginAndRegisterWithProtectedRoutes },
     ]
   },
 ];

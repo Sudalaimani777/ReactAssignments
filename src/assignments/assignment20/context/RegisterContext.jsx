@@ -34,7 +34,7 @@ export const RegisterProvider = ({ children }) => {
         }
         setAllUsers(prevUser => [...prevUser, userInputs]);
         setUserInputs({ userName: "", userEmail: "", userPassword: "" })
-        navigate("/assignment/20/auth/login");
+        navigate("/assignment/20/loginandregisterwithprotectedroutes/login");
     }
 
     useEffect(() => {

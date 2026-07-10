@@ -54,7 +54,7 @@ const Login = () => {
 
         <p className="mt-6 text-center text-sm text-gray-600">
           Don't have an account yet?{" "}
-          <Link to="/assignment/20" className="font-medium text-blue-600 hover:underline">
+          <Link to="/assignment/20/loginandregisterwithprotectedroutes" className="font-medium text-blue-600 hover:underline">
             Register here
           </Link>
         </p>
