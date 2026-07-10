@@ -51,7 +51,9 @@ import { TodoWithSearch } from "../assignments/assignment17";
 // Task 18
 import { TextAndInputRef, SinglePageApplication, ToggleProcess, ClickAndShowText } from "../assignments/assignment18";
 // Task19 :-
-import { UserProfileRenderingContext, ProductCardsRenderingContext } from "../assignments/assignment19"
+import { UserProfileRenderingContext, ProductCardsRenderingContext } from "../assignments/assignment19";
+// Task 20 :-
+import { LoginAndRegisterWithProtectedRoutes } from "../assignments/assignment20";
 
 
 
@@ -254,6 +256,14 @@ export const assignments = [
     tasks: [
       { id: 1, title: "User Profile Rendering Context", path: "/assignment/17/userprofilerenderingcontext", component: UserProfileRenderingContext },
       { id: 2, title: "Product Cards Rendering Context", path: "/assignment/17/productcardsrenderingcontext", component: ProductCardsRenderingContext },
+    ]
+  },
+  // Assignment 20
+  {
+    id: "assignment20",
+    title: "Assignmetn 20",
+    tasks: [
+      { id: 1, title: "Login And Register With Protected Routes", path: "/assignment/20/loginandregisterwithprotectedroutes", component: LoginAndRegisterWithProtectedRoutes },
     ]
   },
 ];
