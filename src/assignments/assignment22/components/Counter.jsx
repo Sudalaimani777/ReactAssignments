@@ -1,6 +1,6 @@
 import { useCounter } from "../hooks/useCounter"
 
-const Counter = () => {
+export const Counter = () => {
     const { count, increment, decrement, reset } = useCounter(10);
 
     return (
@@ -15,5 +15,3 @@ const Counter = () => {
         </div>
     );
 }
-
-export default Counter
