@@ -56,6 +56,8 @@ import { UserProfileRenderingContext, ProductCardsRenderingContext } from "../as
 import { LoginAndRegisterWithProtectedRoutes } from "../assignments/assignment20";
 // Task 21 :-
 import { ShoppingCartTotal, ProductSearch } from "../assignments/assignment21";
+// Task 22 :-
+import {CustomHook} from "../assignments/assignment22";
 
 
 
@@ -268,12 +270,22 @@ export const assignments = [
       { id: 1, title: "Login And Register With Protected Routes", path: "/assignment/20/loginandregisterwithprotectedroutes", routePath: "/assignment/20/loginandregisterwithprotectedroutes/*", component: LoginAndRegisterWithProtectedRoutes },
     ]
   },
+  // Assignmetn 21
   {
     id: "assignment21",
     title: "Assignmetn 21",
     tasks: [
       { id: 1, title: "ProductSearch", path: "/assignment/21/productsearch", component: ProductSearch },
       { id: 2, title: "Shopping Cart", path: "/assignment/21/shoppingcart", component: ShoppingCartTotal },
+    ]
+  },
+  // Assignmetn 22
+  {
+    id: "assignment22",
+    title: "Assignmetn 22",
+    tasks: [
+      { id: 1, title: "Custom Hook", path: "/assignment/22/customhook", component: CustomHook },
+      
     ]
   },
 ];
