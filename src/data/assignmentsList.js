@@ -54,6 +54,8 @@ import { TextAndInputRef, SinglePageApplication, ToggleProcess, ClickAndShowText
 import { UserProfileRenderingContext, ProductCardsRenderingContext } from "../assignments/assignment19";
 // Task 20 :-
 import { LoginAndRegisterWithProtectedRoutes } from "../assignments/assignment20";
+// Task 21 :-
+import { ShoppingCartTotal, ProductSearch } from "../assignments/assignment21";
 
 
 
@@ -266,7 +268,17 @@ export const assignments = [
       { id: 1, title: "Login And Register With Protected Routes", path: "/assignment/20/loginandregisterwithprotectedroutes", routePath: "/assignment/20/loginandregisterwithprotectedroutes/*", component: LoginAndRegisterWithProtectedRoutes },
     ]
   },
+  {
+    id: "assignment21",
+    title: "Assignmetn 21",
+    tasks: [
+      { id: 1, title: "ProductSearch", path: "/assignment/21/productsearch", component: ProductSearch },
+      { id: 2, title: "Shopping Cart", path: "/assignment/21/shoppingcart", component: ShoppingCartTotal },
+    ]
+  },
 ];
+
+
 
 
 
