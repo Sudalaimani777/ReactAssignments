@@ -57,7 +57,11 @@ import { LoginAndRegisterWithProtectedRoutes } from "../assignments/assignment20
 // Task 21 :-
 import { ShoppingCartTotal, ProductSearch } from "../assignments/assignment21";
 // Task 22 :-
-import {CustomHook} from "../assignments/assignment22";
+import { CustomHook } from "../assignments/assignment22";
+// Task 23 :-
+import { DataSearchComponent } from "../assignments/assignment23";
+// Task 24 :-
+import { CRUDInReduce } from "../assignments/assignment24";
 
 
 
@@ -285,7 +289,25 @@ export const assignments = [
     title: "Assignmetn 22",
     tasks: [
       { id: 1, title: "Custom Hook", path: "/assignment/22/customhook", component: CustomHook },
-      
+
+    ]
+  },
+  // Assignmetn 23
+  {
+    id: "assignment23",
+    title: "Assignmetn 23",
+    tasks: [
+      { id: 1, title: "Data Search Component", path: "/assignment/22/DataSearchComponent", component: DataSearchComponent },
+
+    ]
+  },
+  // Assignmetn 24
+  {
+    id: "assignment24",
+    title: "Assignmetn 24",
+    tasks: [
+      { id: 1, title: "CRUD In Reduce", path: "/assignment/22/CRUDInReduce", component: CRUDInReduce },
+
     ]
   },
 ];
