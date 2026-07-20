@@ -62,6 +62,8 @@ import { CustomHook } from "../assignments/assignment22";
 import { DataSearchComponent } from "../assignments/assignment23";
 // Task 24 :-
 import { CRUDInReduce } from "../assignments/assignment24";
+// Task 25
+import { ReactPerformance } from "../assignments/assignment25";
 
 
 
@@ -307,6 +309,15 @@ export const assignments = [
     title: "Assignmetn 24",
     tasks: [
       { id: 1, title: "CRUD In Reduce", path: "/assignment/22/CRUDInReduce", component: CRUDInReduce },
+
+    ]
+  },
+  // Assignmetn 25
+  {
+    id: "assignment25",
+    title: "Assignmetn 25",
+    tasks: [
+      { id: 1, title: "ReactPerformance", path: "/assignment/22/ReactPerformance", component: ReactPerformance },
 
     ]
   },
