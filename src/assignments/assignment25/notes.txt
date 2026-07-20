@@ -1,0 +1,29 @@
+Q29: What does <Outlet/> do in React Router?
+Renders the matched child route inside a parent layout route.
+
+Q30: How do you protect a route from unauthenticated users?
+Wrap the route element in a component that checks auth state and redirects with <Navigate/> if the user isn't logged in.
+
+Q31: How does Vite expose environment variables?
+Via import.meta.env; only variables prefixed with VITE_ are exposed to client code.
+
+Q36: How should client code handle a 429 rate-limit response?
+Read the Retry-After header and retry with exponential backoff instead of retrying immediately.
+
+Q32: Why does Redux Toolkit let you "mutate" state in reducers?
+It uses Immer internally, which turns those mutations into safe immutable updates behind the scenes.
+
+Q33: When would you choose Redux over Context API?
+When you need devtools/time-travel debugging, middleware, or many components reading overlapping state without re-rendering the whole tree.
+
+Q34: What does React.memo actually prevent?
+Re-running a component's render when its props are shallow-equal to the last render — it doesn't stop its children from re-rendering from their own state or context.
+
+Q35: Debounce vs throttle — simple distinction?
+Debounce waits for a pause in events before running once; throttle runs at most once per fixed interval regardless of event frequency.
+
+Q37: How do you code-split a React app?
+React.lazy(() => import('./Page')) wrapped in <Suspense>, typically at the route level.
+
+Q38: How do you avoid unnecessary re-renders from a passed-down function prop?
+Wrap the function in useCallback so its reference stays stable across renders, and wrap the receiving child in React.memo.
